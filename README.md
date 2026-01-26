@@ -33,10 +33,8 @@ Screenshot showing the minted token and balance on Devnet:
 ### Transactions
 
 - **Mint Transaction Hash:**  
-  `<PASTE_MINT_TRANSACTION_HASH_HERE>`
+5KLGJSASDVxKPjLCDWNtnABLpZjsQSrYZ8HKwcEdAMC8
 
-- **Token Transfer Transaction Hash:**  
-  `<PASTE_TRANSFER_TRANSACTION_HASH_HERE>`
 
 You can verify these transactions on the Solana Explorer by switching the network to **Devnet**.
 
