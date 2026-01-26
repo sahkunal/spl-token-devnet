@@ -25,8 +25,7 @@ The implementation is based on the provided starter code and sample scripts from
 
 ### Screenshot
 Screenshot showing the minted token and balance on Devnet:
-
-![Token Screenshot](screenshot.png)
+uploaded in the main file
 
 ---
 
