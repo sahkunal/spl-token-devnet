@@ -26,7 +26,7 @@ The implementation is based on the provided starter code and sample scripts from
 ### Screenshot
 Screenshot showing the minted token and balance on Devnet:
 
-![Token Screenshot]([./screenshot.png](https://github.com/sahkunal/spl-token-devnet/blob/main/Screenshot%202026-01-26%20150116.png))
+![Token Screenshot](screenshot.png)
 
 ---
 
