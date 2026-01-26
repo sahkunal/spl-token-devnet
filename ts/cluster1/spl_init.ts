@@ -11,9 +11,17 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
 
 (async () => {
     try {
-        // Start here
-        // const mint = ???
+        const mint = await createMint(
+            connection, // connection
+            keypair,    // payer
+            keypair.publicKey, // mint authority
+            null,       // freeze authority (optional)
+            6         // decimals
+        );
+        console.log(`Your new mint address is: ${mint.toBase58()}`);
     } catch(error) {
         console.log(`Oops, something went wrong: ${error}`)
     }
 })()
+
+//Your new mint address is: 8oiLDdfm84NEcvRtFRUo6Tatof3YaMvSwXd3xJzyTbfL
