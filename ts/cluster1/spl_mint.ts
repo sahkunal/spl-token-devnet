@@ -43,3 +43,5 @@ const mint = new PublicKey("8oiLDdfm84NEcvRtFRUo6Tatof3YaMvSwXd3xJzyTbfL");
         console.log(`Oops, something went wrong: ${error}`)
     }
 })()
+
+//Your new mint address is: CS7GeeaefYLRiojmfAr5mUic6zQUZPstgtcGcACGTX8K
