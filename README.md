@@ -79,9 +79,7 @@ npm run mint
 ## Metadata URI
 
 ```
- https://docs.metaplex.com/programs/token-metadata/changelog/v1.0#json-structure
-
-```
+ https://gateway.irys.xyz/7VcLtokcEMqqt6AkCT4BMmotjL48Nj3v6nQ3FbUxqATY
 
 ---
 
