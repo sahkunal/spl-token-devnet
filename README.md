@@ -1,46 +1,171 @@
-# SPL Token Minting on Solana Devnet
+# 🧩 NFT Mint & Swap Project (Devnet)
 
-## Objective
-Mint, send, and trade an SPL token on Solana Devnet using the Solana Web3 and SPL Token libraries.
+## 📌 Project Overview
 
----
+This project demonstrates how to **mint and trade an NFT on devnet**.
+The objective was to create a simple NFT (image + metadata), mint it using a devnet wallet, and successfully swap it with another participant.
 
-## Description
-This project demonstrates how to:
-- Create and mint a custom SPL token on Solana **Devnet**
-- Send minted tokens to another wallet
-- Interact with Solana using TypeScript
+This repository contains:
 
-The implementation is based on the provided starter code and sample scripts from `ts/cluster1`.
-
----
-
-## Token Details
-- **Network:** Solana Devnet
-- **Mint Address:** <8oiLDdfm84NEcvRtFRUo6Tatof3YaMvSwXd3xJzyTbfL>
+* NFT minting code
+* Metadata configuration
+* Transaction details
+* Reflection on challenges and potential improvements
 
 ---
 
-## Proof of Work
+# 🚀 Features
 
-### Screenshot
-Screenshot showing the minted token and balance on Devnet:
-uploaded in the main file
-
----
-
-### Transactions
-
-- **Mint Transaction Hash:**  
-5KLGJSASDVxKPjLCDWNtnABLpZjsQSrYZ8HKwcEdAMC8
-
-
-You can verify these transactions on the Solana Explorer by switching the network to **Devnet**.
+* Minted a custom NFT on **devnet**
+* Uploaded metadata and linked image asset
+* Completed NFT trade using devnet wallets
+* Documented transaction hashes and workflow
 
 ---
 
-## How to Run
+# 🖼️ NFT Preview
+
+screenshots are provided in the main file
+
+# 🛠️ Tech Stack
+
+* JavaScript / TypeScript
+* Web3 / Blockchain SDK (update depending on what you used)
+* Devnet Wallets
+* Discord (for peer-to-peer trading coordination)
+
+---
+
+# ⚙️ Setup Instructions
+
+## 1️⃣ Clone Repository
+
+git clone https://github.com/sahkunal18/spl-token-devent.git
+cd spl-token-devnet
+
+## 2️⃣ Install Dependencies
+
 ```bash
 npm install
-npm run build
-npm run start
+```
+
+## 3️⃣ Configure Wallet
+
+* Create or import a **devnet wallet**
+* Add private key or keypair file to `.env`
+
+Example:
+
+```
+PRIVATE_KEY=your_private_key_here
+RPC_URL=https://api.devnet.solana.com
+```
+
+## 4️⃣ Mint NFT
+
+```bash
+npm run mint
+```
+
+---
+
+# 🔗 NFT Details
+
+## Mint Address
+
+```
+<8oiLDdfm84NEcvRtFRUo6Tatof3YaMvSwXd3xJzyTbfL>```
+
+## Metadata URI
+
+```
+ https://docs.metaplex.com/programs/token-metadata/changelog/v1.0#json-structure
+
+```
+
+---
+
+# 🔄 Trade / Swap Transactions
+
+## Mint Transaction Hash
+
+```
+5KLGJSASDVxKPjLCDWNtnABLpZjsQSrYZ8HKwcEdAMC8```
+
+(did the self transfer)
+
+# 📚 Workflow Summary
+
+1. Created NFT artwork and metadata JSON.
+2. Uploaded metadata and linked the image.
+3. Minted NFT on devnet.
+4. Found a trade partner via Discord.
+5. Exchanged wallet addresses and executed swap transactions.
+6. Verified ownership transfer on explorer.
+
+---
+
+# ⚠️ Problems & Limitations
+
+## 1. Lack of Trustless Swaps
+
+Trading NFTs manually through Discord required trust between participants.
+One user could potentially send their NFT first and risk losing it if the other party does not follow through.
+
+## 2. Poor User Experience
+
+Manual wallet handling, transaction signing, and devnet setup can be confusing for beginners.
+
+## 3. No Built-in Escrow
+
+Without escrow or atomic swap functionality, trades require coordination and timing.
+
+---
+
+# 💡 Proposed Solutions
+
+## ✅ Use Escrow Smart Contracts
+
+Implement a smart contract that holds both NFTs until both parties confirm.
+This ensures atomic swaps and prevents fraud.
+
+## ✅ Integrate a Swap UI
+
+Build a simple front-end interface where users:
+
+* Connect wallets
+* Select NFTs
+* Execute swaps in one transaction
+
+## ✅ Automated Trade Protocols
+
+Use existing NFT marketplaces or swap protocols that support devnet to reduce manual errors.
+
+---
+
+
+
+# 📄 Repository Structure
+
+```
+├── assets/
+├── metadata/
+├── scripts/
+├── src/
+├── README.md
+└── package.json
+```
+
+---
+
+# 🙌 Acknowledgements
+
+* Devnet community participants for NFT trading
+* Web3 developer resources and documentation
+
+---
+
+# 👤 Author
+
+**Your Name**
+Github: https://github.com/YOUR_USERNAME
